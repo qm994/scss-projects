@@ -1,0 +1,66 @@
+:root {
+    --purple: #3e0249;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--purple);
+    font-family: sans-serif;
+    font-size: 65%;
+}
+
+h1 {
+    font-size: 5.4rem;
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameboard {
+    display: flex;
+    width: 45rem;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple);
+    font-size: 14rem;
+}
+
+button {
+    padding: 1rem;
+    color: white;
+    background-color: var(--purple);
+    border-color: var(--purple);
+    border-radius: 30%;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+    outline: none;
+}
+
